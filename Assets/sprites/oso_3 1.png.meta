@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 573602e6f89604c43a933c6b4dfbb13c
+guid: e4d3b95065a59934387a87c433a0520a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8679357093023772072
-    second: oso_4_0
-  - first:
-      213: -5395969313118347567
-    second: oso_4_1
-  - first:
-      213: -2679876799893920002
-    second: oso_4_2
+      213: -3052162860785765725
+    second: oso_3 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,35 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oso_4_0
+      name: oso_3 1_0
       rect:
         serializedVersion: 2
-        x: 189
-        y: 180
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8521d8785babc8780800000000000000
-      internalID: -8679357093023772072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oso_4_1
-      rect:
-        serializedVersion: 2
-        x: 198
+        x: 193
         y: 151
-        width: 94
-        height: 154
+        width: 96
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1de1ca0bf7aad15b0800000000000000
-      internalID: -5395969313118347567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oso_4_2
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 166
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef62384cf3a2fcad0800000000000000
-      internalID: -2679876799893920002
+      spriteID: 3a279369c0a84a5d0800000000000000
+      internalID: -3052162860785765725
       vertices: []
       indices: 
       edges: []
@@ -198,9 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      oso_4_0: -8679357093023772072
-      oso_4_1: -5395969313118347567
-      oso_4_2: -2679876799893920002
+      oso_3 1_0: -3052162860785765725
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
