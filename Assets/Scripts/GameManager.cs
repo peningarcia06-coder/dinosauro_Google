@@ -11,7 +11,22 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject guardarText, guardarBoton, guardarJugador, guardarEnemigo;
     [SerializeField] bool Cronometro;
     [SerializeField] enemigo enemigo;
+    
+    public static GameManager instancia;
    
+    private void Awake()
+    {
+        if (instancia == null)
+        {
+            instancia = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,7 +45,7 @@ public class GameManager : MonoBehaviour
             tiempo += Time.deltaTime;
              int minutos = (int)tiempo / 60;
             int segundos = (int)tiempo % 60;
-             = minutos.ToString("D2") + "." + segundos.ToString("D2");
+           //  = minutos.ToString("D2") + "." + segundos.ToString("D2");
         }
     }
 
